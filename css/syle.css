@@ -1,0 +1,140 @@
+/* Base Style*/
+
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,
+del,dfn,em,img,kbd,a,samp,
+small,strong,sub.sup,var,
+b,i,
+dl,dd,dt,ol,ul,li,
+fieldset,caption,tbody,tfoot,thead,tr,td,th,
+article,aside,section,canvas,details,figcaption,summary,
+time,mark,audio,video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-color: transparent;
+}
+
+button { 
+    border: none;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Hind' , sans-serif;
+}
+
+::-moz-selection {
+    background-color: #b3d4fc;
+    box-shadow: none;
+}
+
+::-webkit-selection {
+        background-color: #b3d4fc;
+        box-shadow: none;
+}
+
+::selection{
+    background-color: #b3d4fc;
+    box-shadow: none;
+
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.clearfix { 
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+header,
+section.services,
+section.portfolio,
+section.blog,
+section.news,
+section.customers,
+section.ourteam,
+section.ourskills,
+section.mapgoogle,
+footer {
+    min-width: 1360px;
+}
+
+/* End Base*/
+
+/* Start style header */
+
+body {
+    background: url(../Images/Untitled-1.png) no-repeat;
+}
+
+#logo {
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+div.list {
+    float: right;
+    background: transparent !important;
+    padding-top: 52px;
+}
+
+div.list ul {
+    list-style-type: none;
+    padding-right: 250px;
+}
+div.list li {
+    display: inline;
+    padding: 20px;
+}
+
+div.list li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+div.list li a:hover {
+    color:fuchsia;
+}
+
+#qoute {
+    text-align: center;
+    margin-top: 6em;
+}
+
+#qoute p {
+    color: white;
+    padding-left: 170px;
+}
+
+#qoute h1 {
+    color: white;
+    font-size: 12em;
+    padding-top: 35px;
+    display: block;
+}
+
+#l {
+    float: left;
+    padding-top: 100px;
+}
+
+a.link {
+    color: crimson;
+    text-decoration: none;
+    padding-left: 460px;
+    font-size: 1.5em;
+}
